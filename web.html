@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compitable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananda Adi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/99b3310fe3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <a href="#" class="logo">Alzzaera's</a>
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>IKI Computer Science 2022</p>
+                <h1>Hi there! <br>It's Me, <span>Ananda Adi</span></h1>
+            </div>
+        </div>
+    </div> 
+<!--------------------about------------>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/pokja team 3 (4).JPG">
+            </div>
+            <div class="about-col-2">  
+                <h1 class="sub-title">About Me</h1>
+                <p> Hello! I'm Ananda Adi, and I embarked on my journey into the world of Information Technology in 2022, armed with determination and a hunger for knowledge. While some may have started with a strong foundation in IT, I took my first steps with no prior experience, and it has been an exhilarating ride ever since. 
+                    <br><br>My decision to dive into IT was driven by a passion for problem-solving, technology's ever-evolving nature, and the endless possibilities it offers. I saw it as an opportunity to challenge myself and explore a field that fascinated me but remained uncharted territory. Starting from scratch meant facing a steep learning curve, but I embraced it as an exciting challenge rather than an obstacle.
+                    <br><br>As a musician, I've always been captivated by the power of melodies, rhythms, and harmonies to convey emotions and tell stories. My music allowed me to connect with people on a deeply personal level. It was during my musical endeavors that I stumbled upon the fascinating world of technology. I became intrigued by how technology could enhance the creative process and enable me to share my music with a wider audience.
+                    <br><br>In parallel with my musical pursuits, I dabbled in novel writing. The written word offered me a different canvas for storytelling, one where I could craft intricate narratives and explore the depths of imagination. Little did I know that my transition into IT would also expand my horizons as a writer, offering me new tools and platforms to express my creativity.
+                </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                        <li><span>Digital Art</span><br>Designing Art for use in web/app</li>
+                        <li><span>Copywriter</span><br>Writing every single description for web/app</li>
+                        <li><span>Story Writer</span><br>Writing a new plot for story</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>Vice President of Gemastik FTK</li>
+                        <li><span>2022-current</span><br>Member of 3rd Division POKJA FTK</li>
+                        <li><span>2022</span><br>Member of Gemastik UI/UX competition</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-current</span><br>College student of Ganesha Education University</li>
+                        <li><span>2019</span><br>Student of SMAn 1 Kuta Utara</li>
+                        <li><span>2016</span><br>Student of SMPn 2 Kuta Utara</li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------portofolio------------>
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/siyeon.jpeg">
+                <div class="layer">
+                    <h3>"Cruel Dream"</h3>
+                    <p>the story that i made to tell people about what social media is</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/sua.jpeg">
+                <div class="layer">
+                <h3>"T3.B"</h3>
+                <p>the story that i made about college life</p>
+            </div>
+        </div>
+            <div class="work">
+                <img src="images/hyeonnie.jpeg">
+                <div class="layer">
+                <h3>"A-Helper"</h3>
+                <p>Web App full of animal information</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--------------------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>anandaadi239@gmail.com</p>
+                <p>081915606910</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Messsage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>모든 저작권은 Ananda Adi에게 있습니다.</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+</body>
+</html>
